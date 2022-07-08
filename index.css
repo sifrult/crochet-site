@@ -6,6 +6,10 @@ body {
 ul {
     list-style-position: inside;
 }
+
+h1 {
+    font-size: 25px;
+}
 .header {
     display: flex;
     align-items: center;
@@ -30,7 +34,8 @@ ul {
 /* Format About ME page */
 .about_me {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 10%;
 }
 
 .profile_photo {
@@ -113,6 +118,27 @@ ul {
     grid-column-end: 13;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+/* Format Patterns page */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pattern {
+    width: 180px;
+    padding: 10px 0;
+}
+
+.pattern_img {
+    width: 160px;
+    height: 130px;
+    object-fit: cover;
 }
 
 /* Format Cool Stuff page */
