@@ -1,6 +1,8 @@
 body {
     padding-left: 15%;
     padding-right: 15%;
+    background-color: rgb(245, 220, 196);
+    font-family: lucida sans;
 }
 
 ul {
@@ -10,6 +12,8 @@ ul {
 h1 {
     font-size: 25px;
 }
+
+h2 {font-size: 23px;}
 .header {
     display: flex;
     align-items: center;
@@ -22,13 +26,19 @@ h1 {
     align-items: center;
     height: 40px;
     margin-top: 20px;
-    border-top: 1px dotted black;
-    border-bottom: 1px dotted black;
+    border-top: 3px dotted rgb(241, 184, 131);
+    border-bottom: 3px dotted rgb(241, 184, 131);
+    background-color: rgb(255, 255, 255, .25);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 .content {
     text-align: center;
     font-size: 20px;
+    background-color: rgb(255, 255, 255, .25);
 }
 
 /* Format About ME page */
@@ -139,6 +149,7 @@ h1 {
     width: 160px;
     height: 130px;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 /* Format Cool Stuff page */
